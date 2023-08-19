@@ -1,0 +1,186 @@
+[debug] [2023-08-19T13:29:03.973Z] ----------------------------------------------------------------------
+[debug] [2023-08-19T13:29:03.975Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Bhargav\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-08-19T13:29:03.975Z] CLI Version:   12.4.8
+[debug] [2023-08-19T13:29:03.976Z] Platform:      win32
+[debug] [2023-08-19T13:29:03.976Z] Node Version:  v18.15.0
+[debug] [2023-08-19T13:29:03.982Z] Time:          Sat Aug 19 2023 18:59:03 GMT+0530 (India Standard Time)
+[debug] [2023-08-19T13:29:03.982Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-19T13:29:03.986Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-08-19T13:29:04.129Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-19T13:29:04.130Z] > authorizing via signed-in user (madhavarapusanjeev3@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-08-19T13:29:04.144Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-19T13:29:04.144Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-19T13:29:04.144Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project fir-e4689. This may result in unexpected behavior. 
+[debug] [2023-08-19T13:29:04.158Z] [hub] writing locator at C:\Users\Bhargav\AppData\Local\Temp\hub-fir-e4689.json
+[debug] [2023-08-19T13:29:04.178Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-19T13:29:04.178Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-19T13:29:04.178Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-08-19T13:29:04.183Z] defaultcredentials: writing to file C:\Users\Bhargav\AppData\Roaming\firebase\madhavarapusanjeev3_gmail_com_application_default_credentials.json
+[debug] [2023-08-19T13:29:04.187Z] Setting GAC to C:\Users\Bhargav\AppData\Roaming\firebase\madhavarapusanjeev3_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Bhargav\\AppData\\Roaming\\firebase\\madhavarapusanjeev3_gmail_com_application_default_credentials.json"}}
+[debug] [2023-08-19T13:29:04.189Z] > refreshing access token with scopes: []
+[debug] [2023-08-19T13:29:04.189Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-08-19T13:29:04.190Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-19T13:29:08.320Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-08-19T13:29:08.321Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-08-19T13:29:11.072Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-08-19T13:29:11.072Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-08-19T13:29:11.085Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-e4689/adminSdkConfig [none]
+[debug] [2023-08-19T13:29:18.310Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-e4689/adminSdkConfig 200
+[debug] [2023-08-19T13:29:18.310Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-e4689/adminSdkConfig {"projectId":"fir-e4689","storageBucket":"fir-e4689.appspot.com"}
+[debug] [2023-08-19T13:29:18.723Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-e4689/sites 
+[debug] [2023-08-19T13:29:29.816Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-e4689/sites 200
+[debug] [2023-08-19T13:29:29.816Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fir-e4689/sites {"sites":[{"name":"projects/fir-e4689/sites/fir-e4689","defaultUrl":"https://fir-e4689.web.app","appId":"1:1086004520628:web:47d339c3965c5d5efe19e1","type":"DEFAULT_SITE"}]}
+[debug] [2023-08-19T13:29:29.817Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-e4689/webApps/1:1086004520628:web:47d339c3965c5d5efe19e1/config [none]
+[debug] [2023-08-19T13:29:36.701Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-e4689/webApps/1:1086004520628:web:47d339c3965c5d5efe19e1/config 200
+[debug] [2023-08-19T13:29:36.701Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-e4689/webApps/1:1086004520628:web:47d339c3965c5d5efe19e1/config {"projectId":"fir-e4689","appId":"1:1086004520628:web:47d339c3965c5d5efe19e1","storageBucket":"fir-e4689.appspot.com","apiKey":"AIzaSyAazxOMcHFwellRroTTi7tvNZ8gY61B2fY","authDomain":"fir-e4689.firebaseapp.com","messagingSenderId":"1086004520628","measurementId":"G-SRZRFDZ261"}
+[debug] [2023-08-19T13:29:36.755Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-e4689 [none]
+[debug] [2023-08-19T13:29:49.519Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/fir-e4689, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/fir-e4689 failed, reason: Client network socket disconnected before secure TLS connection was established
+[debug] [2023-08-19T13:29:49.520Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/fir-e4689 (original: request to https://firebase.googleapis.com/v1beta1/projects/fir-e4689 failed, reason: Client network socket disconnected before secure TLS connection was established)
+[info] i  hosting[fir-e4689]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[fir-e4689]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2023-08-19T13:29:49.569Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-08-19T13:29:49.569Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-08-19T13:29:49.569Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Bhargav\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Bhargav\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-08-19T13:29:49.863Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-08-19T13:29:49.864Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "E:\proj\Amazon C\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"E:\\proj\\Amazon C\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2023-08-19T13:29:49.938Z] Validating nodejs source
+[debug] [2023-08-19T13:30:00.123Z] checkFunctionsSDKVersion was unable to fetch information from NPM Error: spawnSync C:\WINDOWS\system32\cmd.exe ETIMEDOUT
+    at Object.spawnSync (node:internal/child_process:1110:20)
+    at Object.spawnSync (node:child_process:871:24)
+    at Function.spawnSync [as sync] (C:\Users\Bhargav\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\index.js:26:23)
+    at Object.getLatestSDKVersion (C:\Users\Bhargav\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:54:25)
+    at Object.checkFunctionsSDKVersion (C:\Users\Bhargav\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\versioning.js:74:32)
+    at Delegate.validate (C:\Users\Bhargav\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\functions\runtimes\node\index.js:84:20)
+    at FunctionsEmulator.discoverTriggers (C:\Users\Bhargav\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:296:35)
+    at async FunctionsEmulator.loadTriggers (C:\Users\Bhargav\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:325:34)
+    at async FunctionsEmulator.connect (C:\Users\Bhargav\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:262:13)
+    at async Object.startAll (C:\Users\Bhargav\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\controller.js:562:13)
+[debug] [2023-08-19T13:30:00.125Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^13.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-08-19T13:30:00.125Z] Building nodejs source
+[debug] [2023-08-19T13:30:00.125Z] Failed to find version of module node: reached end of search path E:\proj\Amazon C\amazon-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-08-19T13:30:00.128Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-08-19T13:30:00.184Z] Found firebase-functions binary at 'E:\proj\Amazon C\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-08-19T13:30:10.221Z] Failed to call quitquitquit. This often means the server failed to start request to http://localhost:8751/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8751 {"message":"request to http://localhost:8751/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8751","type":"system","errno":"ECONNREFUSED","code":"ECONNREFUSED"}
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] Serving at port 8751
+
+[debug] [2023-08-19T13:30:25.643Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:30:25.643Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:30:25.644Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:30:25.643Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:30:25.649Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:30:25.652Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:30:25.652Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:30:25.652Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:30:25.652Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:30:25.653Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:32:16.289Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:32:16.289Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:32:16.289Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:32:16.289Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:32:16.290Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:32:16.291Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:32:16.291Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:32:16.291Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:32:16.291Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:32:16.292Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:32:52.439Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:32:52.439Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:32:52.439Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:32:52.439Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:32:52.440Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:32:52.440Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:32:52.440Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:32:52.440Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:32:52.440Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:32:52.441Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:34:16.184Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:34:16.184Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:34:16.184Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:34:16.184Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:34:16.184Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:34:16.185Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:34:16.185Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:34:16.185Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:34:16.185Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:34:16.185Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:36:06.227Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:36:06.227Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:36:06.228Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:36:06.227Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:36:06.228Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:36:06.229Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:36:06.229Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:36:06.229Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:36:06.229Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:36:06.229Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:36:40.307Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:36:40.307Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:36:40.308Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:36:40.307Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:36:40.309Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:36:40.310Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:36:40.310Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:36:40.311Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:36:40.310Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:36:40.311Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:37:33.719Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:37:33.719Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:37:33.720Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:37:33.719Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:37:33.720Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:37:33.721Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:37:33.721Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:37:33.721Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:37:33.721Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:37:33.721Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:38:35.360Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:38:35.360Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:38:35.360Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:38:35.360Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:38:35.361Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:38:35.366Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:38:35.365Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:38:35.366Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:38:35.365Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:38:35.367Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:39:47.211Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:39:47.211Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:39:47.211Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:39:47.211Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:39:47.212Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:39:47.213Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:39:47.213Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:39:47.213Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:39:47.213Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:39:47.214Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:39:47.214Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:39:47.214Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:39:47.214Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:39:47.214Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:39:47.215Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:39:47.216Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:39:47.216Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:39:47.216Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:39:47.216Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:39:47.216Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:39:59.260Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:39:59.260Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:39:59.261Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:39:59.260Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:39:59.262Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:39:59.264Z] [work-queue] {"queuedWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:39:59.264Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-08-19T13:39:59.265Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fir-e4689/us-central1/api/payments/create-2023-08-19T13:39:59.264Z"],"workRunningCount":1}
+[debug] [2023-08-19T13:39:59.266Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}

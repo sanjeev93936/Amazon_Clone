@@ -1,3 +1,10 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+module.exports = {
+entry: './src/app.js',
+output: {
+    filename: './dist/app.bundle.js'
+   }
+}
