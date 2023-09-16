@@ -56,14 +56,17 @@ You can find the Demo [Amazon_Clone](https://fir-e4689.web.app/).
    ```
 
 ## Screnshots
-### This is the Payment Section
-![Screenshot 2023-09-16 193320](https://github.com/sanjeev93936/Amazon_Clone1/assets/108318474/47174cb9-7b80-46d9-bdd6-ab3b0aa16b52)
+
+### This is the Authentication Section
+![Screenshot 2023-09-16 193135](https://github.com/sanjeev93936/Amazon_Clone1/assets/108318474/22df3e83-ef5b-4ab7-926c-91bd23322b7b)
+### This is the Home Section
+![Screenshot 2023-09-16 193039](https://github.com/sanjeev93936/Amazon_Clone1/assets/108318474/4838816c-0d14-4476-b4b2-41e0814284b1)
+![Screenshot 2023-09-16 193114](https://github.com/sanjeev93936/Amazon_Clone1/assets/108318474/3e297633-5264-454c-a384-96c2d1ef2b79)
 ### This is the Checkout Section
-![amazonCheck](https://user-images.githubusercontent.com/67522406/106353332-c1ae0a80-630f-11eb-8b0b-c1bd39758320.png)
-### This is the User Authentication section
-![Amazon-Sign](https://user-images.githubusercontent.com/67522406/106353333-c4a8fb00-630f-11eb-8edb-d9a655367acc.png)
-### This is the Footer Section
-![Footeramzon](https://user-images.githubusercontent.com/67522406/106353334-c70b5500-630f-11eb-864b-7d695c8f4421.png)
+![Screenshot 2023-09-16 193231](https://github.com/sanjeev93936/Amazon_Clone1/assets/108318474/1670b609-0e3e-4eb3-9cf2-d812358f8f40)
+### This is the Payment Section
+![Screenshot 2023-09-16 193257](https://github.com/sanjeev93936/Amazon_Clone1/assets/108318474/b22be56e-f180-4ca5-b4bd-28d022bc5489)
+![Screenshot 2023-09-16 193320](https://github.com/sanjeev93936/Amazon_Clone1/assets/108318474/47174cb9-7b80-46d9-bdd6-ab3b0aa16b52)
 
 ## Author
 
