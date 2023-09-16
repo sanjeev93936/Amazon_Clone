@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Amazon-Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### This is basically a clone of the well-known E-commerce website Amazon. It uses Firebase for User Authentication. It uses Stripe for User Payments
 
-## Available Scripts
+## Installation Guidlines
 
-In the project directory, you can run:
+### STEP 1
+#### Clone this Repository
+ ```sh
+  git clone https://github.com/sanjeev93936/Amazon_Clone1.git
+  ```
+### STEP 2
+ #### Run -- Npm install
+  ```sh
+   npm install
+   ```
+### STEP 3
+ #### [Add a Project with Firebase](https://console.firebase.google.com/u/0/)
+ 
+### STEP 4
+##### Go to the firebase.js file of the project file and add your firebase credentials (Note: This file already includes my firebase project credentials , So you just have to replace it with yours)
 
-### `npm start`
+ ```sh
+ const firebaseApp = firebase.initializeApp({
+ apiKey: "",
+ authDomain: "",
+ databaseURL: "",
+ projectId: "",
+ storageBucket: "",
+ messagingSenderId: "",
+ appId: "",
+ measurementId: "",
+});
+```
+### STEP 5
+#### Run -- npm start  (Make sure You run this in the root directory of the project folder)
+  
+```sh
+   npm start
+   ```
+## Screnshots
+### This is the Home Section
+![amazon](https://user-images.githubusercontent.com/67522406/106353456-b4dde680-6310-11eb-91d6-e28acf563857.png)
+### This is the Checkout Section
+![amazonCheck](https://user-images.githubusercontent.com/67522406/106353332-c1ae0a80-630f-11eb-8b0b-c1bd39758320.png)
+### This is the User Authentication section
+![Amazon-Sign](https://user-images.githubusercontent.com/67522406/106353333-c4a8fb00-630f-11eb-8edb-d9a655367acc.png)
+### This is the Footer Section
+![Footeramzon](https://user-images.githubusercontent.com/67522406/106353334-c70b5500-630f-11eb-864b-7d695c8f4421.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Author
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Sanjeev
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="https://linkedin.com/in/sanjeev93936" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="payalpatra105" height="30" width="40" /></a>
+<a href="https://instagram.com/
+sanjeev_madhavarapu" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="p_iconic_" height="30" width="40" /></a>
