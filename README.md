@@ -2,9 +2,11 @@
 
 ### This is basically a clone of the well-known E-commerce website Amazon. It uses Firebase for User Authentication. It uses Stripe for User Payments
 
+
 ## Demo
 
 You can find the Demo [Amazon_Clone](https://fir-e4689.web.app/).
+
 
 ## Installation Guidlines
 
@@ -42,6 +44,17 @@ You can find the Demo [Amazon_Clone](https://fir-e4689.web.app/).
 ```sh
    npm start
    ```
+
+### STEP 6
+ #### [Add a Project with Stripe](https://stripe.com/en-in)
+ 
+### STEP 7
+##### Deploy cloud functions Run -- firebase emulators : start (Make sure You run this in the functions directory) (this gives end point to server)
+
+```sh
+   firebase emulators : start
+   ```
+
 ## Screnshots
 ### This is the Home Section
 ![amazon](https://user-images.githubusercontent.com/67522406/106353456-b4dde680-6310-11eb-91d6-e28acf563857.png)
