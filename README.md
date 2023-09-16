@@ -70,7 +70,7 @@ You can find the Demo [Amazon_Clone](https://fir-e4689.web.app/).
 
 ## Author
 
-### Sanjeev
+### Sanjeev Madhavarapu
 
 <a href="https://linkedin.com/in/sanjeev-madhavarapu-92a389237/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="payalpatra105" height="30" width="40" /></a>
 <a href="https://instagram.com/
