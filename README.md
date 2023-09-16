@@ -2,6 +2,10 @@
 
 ### This is basically a clone of the well-known E-commerce website Amazon. It uses Firebase for User Authentication. It uses Stripe for User Payments
 
+## Demo
+
+You can find the Demo [Amazon_Clone](https://fir-e4689.web.app/).
+
 ## Installation Guidlines
 
 ### STEP 1
