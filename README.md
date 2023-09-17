@@ -13,7 +13,7 @@ You can find the Demo [Amazon_Clone](https://fir-e4689.web.app/).
 ### STEP 1
 #### Clone this Repository
  ```sh
-  git clone https://github.com/sanjeev93936/Amazon_Clone1.git
+  git clone https://github.com/sanjeev93936/Amazon_Clone.git
   ```
 ### STEP 2
  #### Run -- Npm install
