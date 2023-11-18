@@ -67,6 +67,9 @@ You can find the Demo [Amazon_Clone](https://fir-e4689.web.app/).
 ### This is the Payment Section
 ![Screenshot 2023-09-16 193257](https://github.com/sanjeev93936/Amazon_Clone1/assets/108318474/b22be56e-f180-4ca5-b4bd-28d022bc5489)
 ![Screenshot 2023-09-16 193320](https://github.com/sanjeev93936/Amazon_Clone1/assets/108318474/47174cb9-7b80-46d9-bdd6-ab3b0aa16b52)
+### This is the Orders Section
+![Screenshot 2023-11-18 063440](https://github.com/sanjeev93936/Amazon_Clone/assets/108318474/0e027ef6-344b-4d59-a93b-56c2ff663de5)
+
 
 ## Author
 
